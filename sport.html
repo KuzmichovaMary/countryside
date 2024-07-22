@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детали новости</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .header, .footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-title {
+            font-size: 24px;
+        }
+        .content-container {
+            flex: 1;
+            max-width: 800px;
+            width: 100%;
+            background: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .news-header {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .news-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .news-text {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .back-link {
+            font-size: 14px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">Новости деревни Чашницы</div>
+    </div>
+    <div class="content-container">
+        <div class="news-header">Новый игрок в баскетбольном клубе «Чашницы»</div>
+        <img src="img/basket.jpg" alt="Новый игрок в баскетбольном клубе «Чашницы»" class="news-image">
+        <div class="news-text">
+            После длительного отсутствия в баскетбольный клуб деревни вернулся Петр Кузьмичев - один из сильнейших игроков клуба. Петр успел поучаствовать в одном матче!
+            <br><br>
+            Уже совсем скоро состоится матч «Мелкие» против «Старших». Приходите участвовать и болеть за любимые команды!
+        </div>
+        <a href="index.html" class="back-link">назад к новостям</a>
+    </div>
+    <div class="footer">
+        <p>Все имена и события в произведении вымышлены, любые совпадения с реальными людьми, живыми или мертвыми случайны</p>
+        <p>No rights reserved (2024)</p>
+    </div>
+</body>
+</html>
